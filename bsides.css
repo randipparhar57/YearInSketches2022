@@ -1,0 +1,62 @@
+body {
+	background-color: whitesmoke;
+}
+
+figure {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;;
+    align-items: center;
+    row-gap: 75px;
+    column-gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.header, .footer {
+	padding-left: 75px;
+	padding-right: 75px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+h1 {
+	font-family: 'Beth Ellen';
+    color: black;
+}
+
+img {
+    border: 5px solid black;
+}
+
+/* button */
+#homebutton {
+    background-color: #EAE7C6;
+    border: 5px solid #BCCC9A;
+    border-radius: 25%;
+    color: #698269;
+    padding: 5px 5px;
+    text-decoration: none;
+    font-family: 'La Belle Aurore'; 
+    font-size: 16px;
+    cursor: url('./sparklyHeart.cur'), auto;
+    transition-duration: 0.4s;
+}
+
+#homebutton:hover {
+    background-color: #D1E8E4; 
+    color: #C37B89;
+}
+
+#homebutton:active {
+    background-color: #ECF9FF;
+    box-shadow: 0 5px #D1E8E4;
+    transform: translateY(10px);
+  }

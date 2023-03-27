@@ -1,0 +1,99 @@
+body {
+    background-image: url("./assets/inner_outer_covers/front_cover.jpg");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+    backdrop-filter: blur(5px);
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.header {
+	padding-left: 25px;
+	padding-right: 25px;
+    padding-top: 25px;
+	padding-bottom: 25px;
+
+    font-family: 'Syne Mono';
+}
+
+.zine-content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+    padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.introduction, .fall2021, .winter2022, .seattle, .beacon, .selfridge, .concerts, .june28, .new-beginnings, .inharmony, .healing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center, space-evenly;
+    align-items: center;
+    column-gap: 50px;
+	padding-left: 25px;
+	padding-right: 25px;
+    padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.sketch {
+    flex: 50%;
+    padding-left: 12.5px;
+	padding-right: 12.5px;
+    padding-top: 12.5px;
+	padding-bottom: 12.5px;
+}
+
+.memory {
+    flex: 50%;
+    padding-left: 12.5px;
+	padding-right: 12.5px;
+    padding-top: 12.5px;
+	padding-bottom: 12.5px;
+
+    height: 500px;
+    width: 300px;
+    /*border:1px solid beige;*/
+    overflow: auto;
+}
+
+img { 
+    border: 10px solid saddlebrown;
+    cursor: url('./sparklyHeart.cur'), auto;
+}
+
+.introtext {
+    font-family: 'Caveat';
+}
+
+h4 {
+    font-family: 'Beth Ellen';
+    font-size: 22px;
+}
+
+p {
+    font-family: 'Cedarville Cursive';
+    font-size: 20px;
+}
+
+.OGMemories {
+    font-family: 'Dawning of a New Day';
+    font-size: 22px;
+}
+
+.daytripper {
+    font-family: 'Cutive Mono';
+    font-size: 18px;
+}
+
